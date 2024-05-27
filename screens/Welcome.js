@@ -22,7 +22,7 @@ export default function Welcome({navigation}) {
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.btnGreen}>
                     <Image source={userWhite} />
-                    <Text style={{fontSize:22, lineHeight:22, color:"white",}}>
+                    <Text style={{fontSize:22, lineHeight:22, color:"white",}} onPress={() => navigation.navigate('Signup')}>
                         Create an account
                     </Text>
                 </TouchableOpacity>

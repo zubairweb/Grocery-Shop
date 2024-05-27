@@ -33,7 +33,7 @@ export default function Login({navigation}) {
                 </View>
                 
                 <TouchableOpacity style={styles.btnGreen}>
-                    <Text style={{fontSize:22, lineHeight:22, color:"white",}}>
+                    <Text style={{fontSize:22, lineHeight:22, color:"white",}} onPress={() => navigation.navigate('Welcome')}>
                         Login
                     </Text>
                 </TouchableOpacity>
